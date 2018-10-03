@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/E:\\PPT\\Nusik\\PayBright\\paybright\\build\\intermediates\\res\\merged\\release\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/C:\\Users\\jags\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\746739a7e469978a9b3de066fda4e638\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/E:\\PPT\\Nusik\\PayBright\\paybright\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/C:\\Users\\jags\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\746739a7e469978a9b3de066fda4e638\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/build/intermediates/res/merged/release/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/750fc8bfae711f57c3750741f317c48e/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/750fc8bfae711f57c3750741f317c48e/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

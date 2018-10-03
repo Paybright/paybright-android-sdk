@@ -1,0 +1,132 @@
+{
+    "logs": [
+        {
+            "outputFile": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-si/values-si.xml",
+            "map": [
+                {
+                    "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4a59bde6a1a45b1694806faf2d350066/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1965",
+                        "endColumns": "100",
+                        "endOffsets": "2061"
+                    }
+                },
+                {
+                    "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/750fc8bfae711f57c3750741f317c48e/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,322,429,517,622,738,827,914,998,1107,1212,1310,1420,1519,1625,1784,1883",
+                        "endColumns": "109,106,106,87,104,115,88,86,83,108,104,97,109,98,105,158,98,81",
+                        "endOffsets": "210,317,424,512,617,733,822,909,993,1102,1207,1305,1415,1514,1620,1779,1878,1960"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/E:\\PPT\\Nusik\\PayBright\\paybright\\build\\intermediates\\res\\merged\\release\\values-si\\values-si.xml",
+            "map": [
+                {
+                    "source": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/C:\\Users\\jags\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\ae1c8389ee51529bafa9bb1401199f39\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1965",
+                        "endColumns": "100",
+                        "endOffsets": "2061"
+                    }
+                },
+                {
+                    "source": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/C:\\Users\\jags\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\746739a7e469978a9b3de066fda4e638\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,322,429,517,622,738,827,914,998,1107,1212,1310,1420,1519,1625,1784,1883",
+                        "endColumns": "109,106,106,87,104,115,88,86,83,108,104,97,109,98,105,158,98,81",
+                        "endOffsets": "210,317,424,512,617,733,822,909,993,1102,1207,1305,1415,1514,1620,1779,1878,1960"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/E:\\PPT\\Nusik\\PayBright\\paybright\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-si\\values-si.xml",
+            "map": [
+                {
+                    "source": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/C:\\Users\\jags\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\ae1c8389ee51529bafa9bb1401199f39\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1965",
+                        "endColumns": "100",
+                        "endOffsets": "2061"
+                    }
+                },
+                {
+                    "source": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/C:\\Users\\jags\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\746739a7e469978a9b3de066fda4e638\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,322,429,517,622,738,827,914,998,1107,1212,1310,1420,1519,1625,1784,1883",
+                        "endColumns": "109,106,106,87,104,115,88,86,83,108,104,97,109,98,105,158,98,81",
+                        "endOffsets": "210,317,424,512,617,733,822,909,993,1102,1207,1305,1415,1514,1620,1779,1878,1960"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/SportsWizz/Documents/Personal/Android/PayBright/paybright/build/intermediates/res/merged/release/values-si/values-si.xml",
+            "map": [
+                {
+                    "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4a59bde6a1a45b1694806faf2d350066/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1965",
+                        "endColumns": "100",
+                        "endOffsets": "2061"
+                    }
+                },
+                {
+                    "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/750fc8bfae711f57c3750741f317c48e/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,322,429,517,622,738,827,914,998,1107,1212,1310,1420,1519,1625,1784,1883",
+                        "endColumns": "109,106,106,87,104,115,88,86,83,108,104,97,109,98,105,158,98,81",
+                        "endOffsets": "210,317,424,512,617,733,822,909,993,1102,1207,1305,1415,1514,1620,1779,1878,1960"
+                    }
+                }
+            ]
+        }
+    ]
+}
