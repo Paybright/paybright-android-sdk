@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/anim/abc_tooltip_enter.xml"
+    }
+]

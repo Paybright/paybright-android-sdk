@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6de83243e94e40b883b1773bfe03fae1/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84f303b7a8ff2856e718b4e86ed8dafc/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

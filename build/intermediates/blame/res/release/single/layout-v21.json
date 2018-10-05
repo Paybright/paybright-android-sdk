@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6de83243e94e40b883b1773bfe03fae1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6de83243e94e40b883b1773bfe03fae1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6de83243e94e40b883b1773bfe03fae1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/SportsWizz/Documents/Personal/Android/Final Paybright/paybright/PayBright/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/manpreetsingh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6de83243e94e40b883b1773bfe03fae1/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

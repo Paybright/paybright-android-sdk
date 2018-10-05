@@ -1,0 +1,59 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'paybright-sdk'
+    publishedGroupId = 'com.paybright.sdk'
+    libraryName = 'PayBright'
+    artifact = 'PayBright'
+    libraryDescription = 'PayBright’s mission is to make life more affordable for Canadians. With our convenient payment plans, you can buy now and pay over time in affordable installments. We can help you cover a wide variety of purchases - and we use leading technology to make the process fast and easy.'
+    siteUrl = 'https://github.com/Paybright/paybright-android-sdk'
+    gitUrl = 'https://github.com/Paybright/paybright-android-sdk.git'
+    libraryVersion = '0.1.0'
+    developerId = 'PayBright'
+    developerName = 'PayBright'
+    developerEmail = 'gurpreet@paybright.com'
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable false
+            minifyEnabled true
+            useProguard true
+            proguardFiles 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'

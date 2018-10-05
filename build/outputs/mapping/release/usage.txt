@@ -1,0 +1,2 @@
+com.paybright.sdk.PBConstants:
+    10:10:PBConstants()
