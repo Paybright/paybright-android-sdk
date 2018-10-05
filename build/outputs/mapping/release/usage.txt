@@ -1,2 +1,0 @@
-com.pb.pay.PBConstants:
-    10:10:PBConstants()
