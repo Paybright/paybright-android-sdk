@@ -23,6 +23,10 @@
    public *;
 }
 
+-keep public enum com.paybright.sdk.**{
+    *;
+}
+
 # Preserve all .class method names.
 
 
