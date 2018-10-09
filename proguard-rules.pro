@@ -33,10 +33,6 @@
 # Preserve the special static methods that are required in all enumeration
 # classes.
 
--keepclassmembers class * extends java.lang.Enum {
-    public static **[] values();
-    public static ** valueOf(java.lang.String);
-}
 
 # Explicitly preserve all serialization members. The Serializable interface
 # is only a marker interface, so it wouldn't save them.
