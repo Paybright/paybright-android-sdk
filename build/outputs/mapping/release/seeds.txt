@@ -2295,8 +2295,11 @@ com.paybright.sdk.PBConfig: void initialize(com.paybright.sdk.PBConfig$PBEnviron
 com.paybright.sdk.PBConfig$PBEnvironment
 com.paybright.sdk.PBConfig$PBEnvironment: com.paybright.sdk.PBConfig$PBEnvironment Sandbox
 com.paybright.sdk.PBConfig$PBEnvironment: com.paybright.sdk.PBConfig$PBEnvironment Production
+com.paybright.sdk.PBConfig$PBEnvironment: com.paybright.sdk.PBConfig$PBEnvironment[] $VALUES
 com.paybright.sdk.PBConfig$PBEnvironment: com.paybright.sdk.PBConfig$PBEnvironment[] values()
 com.paybright.sdk.PBConfig$PBEnvironment: com.paybright.sdk.PBConfig$PBEnvironment valueOf(java.lang.String)
+com.paybright.sdk.PBConfig$PBEnvironment: PBConfig$PBEnvironment(java.lang.String,int)
+com.paybright.sdk.PBConfig$PBEnvironment: void <clinit>()
 com.paybright.sdk.PBCustomer
 com.paybright.sdk.PBCustomer: PBCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
 com.paybright.sdk.PBCustomerBilling

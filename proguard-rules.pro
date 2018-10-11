@@ -23,10 +23,6 @@
    public *;
 }
 
--keep public enum com.paybright.sdk.**{
-    *;
-}
-
 # Preserve all .class method names.
 
 
@@ -37,6 +33,9 @@
 # Preserve the special static methods that are required in all enumeration
 # classes.
 
+-keep public enum com.paybright.sdk.**{
+    *;
+}
 
 # Explicitly preserve all serialization members. The Serializable interface
 # is only a marker interface, so it wouldn't save them.
@@ -59,8 +58,3 @@
 # -keep public class mypackage.MyClass
 # -keep public interface mypackage.MyInterface
 # -keep public class * implements mypackage.MyInterface
-
-
--keep class org.apache.http.** { *; }
--dontwarn org.apache.http.**
--dontwarn android.net.**

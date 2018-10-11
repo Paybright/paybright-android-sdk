@@ -2463,7 +2463,7 @@ com.paybright.sdk.PBConfig -> com.paybright.sdk.PBConfig:
 com.paybright.sdk.PBConfig$PBEnvironment -> com.paybright.sdk.PBConfig$PBEnvironment:
     com.paybright.sdk.PBConfig$PBEnvironment Sandbox -> Sandbox
     com.paybright.sdk.PBConfig$PBEnvironment Production -> Production
-    com.paybright.sdk.PBConfig$PBEnvironment[] $VALUES -> a
+    com.paybright.sdk.PBConfig$PBEnvironment[] $VALUES -> $VALUES
     com.paybright.sdk.PBConfig$PBEnvironment[] values() -> values
     com.paybright.sdk.PBConfig$PBEnvironment valueOf(java.lang.String) -> valueOf
     void <init>(java.lang.String,int) -> <init>
@@ -2471,6 +2471,8 @@ com.paybright.sdk.PBConfig$PBEnvironment -> com.paybright.sdk.PBConfig$PBEnviron
 com.paybright.sdk.PBConstants -> com.paybright.sdk.a:
     java.lang.String LIVE_URL -> a
     java.lang.String TEST_URL -> b
+    java.lang.String ACCOUNT_ID -> c
+    java.lang.String API_TOKEN -> d
     void <clinit>() -> <clinit>
 com.paybright.sdk.PBCustomer -> com.paybright.sdk.PBCustomer:
     java.lang.String customerEmail -> a
@@ -2506,6 +2508,7 @@ com.paybright.sdk.PBCustomerShipping -> com.paybright.sdk.PBCustomerShipping:
 com.paybright.sdk.PBHMAC -> com.paybright.sdk.b:
     void <init>() -> <init>
     java.lang.String generateHashWithHMAC256(java.lang.String,java.lang.String) -> a
+    byte[] hmac(java.lang.String,byte[],byte[]) -> a
     java.lang.String bytesToHex(byte[]) -> a
 com.paybright.sdk.PBInstance -> com.paybright.sdk.PBInstance:
     com.paybright.sdk.PBCustomer customerObj -> a
@@ -2529,26 +2532,28 @@ com.paybright.sdk.PBProduct -> com.paybright.sdk.PBProduct:
     void <init>(java.lang.Double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> <init>
     java.util.HashMap productMap() -> a
 com.paybright.sdk.PBViewController -> com.paybright.sdk.PBViewController:
-    android.app.Activity context -> b
-    com.paybright.sdk.PBWebViewDelegate delegate -> a
+    android.app.Activity context -> a
+    com.paybright.sdk.PBWebViewDelegate delegate -> b
     void <init>(android.app.Activity,com.paybright.sdk.PBWebViewDelegate) -> <init>
     void onCreate(android.os.Bundle) -> onCreate
-    java.lang.String queryString() -> a
+    void setup() -> a
+    java.lang.String queryString() -> b
     java.lang.String queryParameters(java.util.Map) -> a
 com.paybright.sdk.PBWebExtraWindow -> com.paybright.sdk.PBWebExtraWindow:
-    android.widget.RelativeLayout layProgress -> a
-    boolean $assertionsDisabled -> b
+    android.widget.RelativeLayout layProgress -> b
+    boolean $assertionsDisabled -> a
     void <init>() -> <init>
     android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
     android.widget.RelativeLayout access$100(com.paybright.sdk.PBWebExtraWindow) -> a
     void <clinit>() -> <clinit>
-com.paybright.sdk.PBWebExtraWindow$WebClient -> com.paybright.sdk.c:
+com.paybright.sdk.PBWebExtraWindow$1 -> com.paybright.sdk.PBWebExtraWindow$1:
+com.paybright.sdk.PBWebExtraWindow$WebClient -> com.paybright.sdk.PBWebExtraWindow$a:
     com.paybright.sdk.PBWebExtraWindow this$0 -> a
     void <init>(com.paybright.sdk.PBWebExtraWindow) -> <init>
     void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
     boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
     void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
-    void <init>(com.paybright.sdk.PBWebExtraWindow,byte) -> <init>
+    void <init>(com.paybright.sdk.PBWebExtraWindow,com.paybright.sdk.PBWebExtraWindow$1) -> <init>
 com.paybright.sdk.PBWebView -> com.paybright.sdk.PBWebView:
     boolean fTime -> a
     boolean isWindowAdded -> b
@@ -2558,6 +2563,10 @@ com.paybright.sdk.PBWebView -> com.paybright.sdk.PBWebView:
     android.webkit.WebView wvPayment -> f
     void <init>() -> <init>
     void onCreate(android.os.Bundle) -> onCreate
+    void clearUIWebViewCache() -> a
+    void launchUIWebViewWithRequest() -> b
+    java.util.HashMap getQueryString(java.lang.String) -> a
+    void removeWindow() -> c
     void onBackPressed() -> onBackPressed
     boolean access$102(com.paybright.sdk.PBWebView,boolean) -> a
     com.paybright.sdk.PBWebExtraWindow access$200(com.paybright.sdk.PBWebView) -> a
@@ -2567,17 +2576,17 @@ com.paybright.sdk.PBWebView -> com.paybright.sdk.PBWebView:
     com.paybright.sdk.PBWebViewDelegate access$600(com.paybright.sdk.PBWebView) -> e
     java.util.HashMap access$700(com.paybright.sdk.PBWebView,java.lang.String) -> a
     boolean access$302(com.paybright.sdk.PBWebView,boolean) -> b
-com.paybright.sdk.PBWebView$1 -> com.paybright.sdk.d:
+com.paybright.sdk.PBWebView$1 -> com.paybright.sdk.PBWebView$1:
     com.paybright.sdk.PBWebView this$0 -> a
     void <init>(com.paybright.sdk.PBWebView) -> <init>
     boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message) -> onCreateWindow
-com.paybright.sdk.PBWebView$WebClient -> com.paybright.sdk.e:
+com.paybright.sdk.PBWebView$WebClient -> com.paybright.sdk.PBWebView$a:
     com.paybright.sdk.PBWebView this$0 -> a
     void <init>(com.paybright.sdk.PBWebView) -> <init>
     void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
     boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
     void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
-    void <init>(com.paybright.sdk.PBWebView,byte) -> <init>
+    void <init>(com.paybright.sdk.PBWebView,com.paybright.sdk.PBWebView$1) -> <init>
 com.paybright.sdk.PBWebViewDelegate -> com.paybright.sdk.PBWebViewDelegate:
     void userDidCancel() -> userDidCancel
     void transactionComplete(boolean,java.lang.String) -> transactionComplete
