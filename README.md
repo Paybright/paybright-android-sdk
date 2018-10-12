@@ -9,7 +9,7 @@ Installation
 <strong> Download via Gradle </strong>
 
 ```groovy
-compile 'com.paybright.sdk:PayBright:0.1.0'"
+compile 'com.paybright.sdk:PayBright:0.1.2'"
 ```
 
 <strong> Download via Maven </strong>
@@ -17,7 +17,7 @@ compile 'com.paybright.sdk:PayBright:0.1.0'"
 <dependency>
   <groupId>com.paybright.sdk</groupId>
   <artifactId>PayBright</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.2</version>
   <type>pom</type>
 </dependency>
 ```
