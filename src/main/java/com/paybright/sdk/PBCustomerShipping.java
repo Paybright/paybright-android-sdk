@@ -6,7 +6,6 @@ package com.paybright.sdk;
  */
 
 
-
 import java.util.HashMap;
 
 
@@ -44,69 +43,69 @@ public class PBCustomerShipping {
                               String customerShippingState,
                               String customerShippingZip) {
 
-        this.customerShippingAddress1       = customerShippingAddress1;
+        this.customerShippingAddress1 = customerShippingAddress1;
 
 
         if (customerShippingAddress2 != null) {
 
-            this.customerShippingAddress2   = customerShippingAddress2;
+            this.customerShippingAddress2 = customerShippingAddress2;
         }
 
 
-        this.customerShippingCity           = customerShippingCity;
+        this.customerShippingCity = customerShippingCity;
 
 
         if (customerShippingCompany != null) {
 
-            this.customerShippingCompany    = customerShippingCompany;
+            this.customerShippingCompany = customerShippingCompany;
         }
 
 
-        this.customerShippingCountry        = customerShippingCountry;
+        this.customerShippingCountry = customerShippingCountry;
 
-        this.customerShippingFirstName      = customerShippingFirstName;
+        this.customerShippingFirstName = customerShippingFirstName;
 
-        this.customerShippingLastName       = customerShippingLastName;
+        this.customerShippingLastName = customerShippingLastName;
 
-        this.customerShippingPhone          = customerShippingPhone;
+        this.customerShippingPhone = customerShippingPhone;
 
-        this.customerShippingState          = customerShippingState;
+        this.customerShippingState = customerShippingState;
 
-        this.customerShippingZip            = customerShippingZip;
+        this.customerShippingZip = customerShippingZip;
     }
 
 
-     HashMap<String, Object> customerShipping() {
+    HashMap<String, Object> customerShipping() {
 
         HashMap<String, Object> rawMap = new HashMap<>();
 
 
-        rawMap.put("x_customer_shipping_address1",      customerShippingAddress1);
+        rawMap.put("x_customer_shipping_address1", customerShippingAddress1);
 
-        rawMap.put("x_customer_shipping_city",          customerShippingCity);
+        rawMap.put("x_customer_shipping_city", customerShippingCity);
 
-        rawMap.put("x_customer_shipping_country",       customerShippingCountry);
+        rawMap.put("x_customer_shipping_country", customerShippingCountry);
 
-        rawMap.put("x_customer_shipping_first_name",    customerShippingFirstName);
+        rawMap.put("x_customer_shipping_first_name", customerShippingFirstName);
 
-        rawMap.put("x_customer_shipping_last_name",     customerShippingLastName);
+        rawMap.put("x_customer_shipping_last_name", customerShippingLastName);
 
-        rawMap.put("x_customer_shipping_phone",         customerShippingPhone);
+        rawMap.put("x_customer_shipping_phone", customerShippingPhone);
 
-        rawMap.put("x_customer_shipping_state",         customerShippingState);
+        rawMap.put("x_customer_shipping_state", customerShippingState);
 
-        rawMap.put("x_customer_shipping_zip",           customerShippingZip);
+        rawMap.put("x_customer_shipping_zip", customerShippingZip);
 
 
         if (customerShippingAddress2 != null) {
 
-            rawMap.put("x_customer_shipping_address2",  customerShippingAddress2);
+            rawMap.put("x_customer_shipping_address2", customerShippingAddress2);
         }
 
 
         if (customerShippingCompany != null) {
 
-            rawMap.put("x_customer_shipping_company",   customerShippingCompany);
+            rawMap.put("x_customer_shipping_company", customerShippingCompany);
         }
 
 

@@ -13,8 +13,8 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Message;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
@@ -151,9 +151,7 @@ public class PBWebView extends AppCompatActivity {
 
                     clearUIWebViewCache();
 
-                    Map<String, String> rawMap = new TreeMap<>();
-
-                    rawMap.putAll(getQueryString(url));
+                    Map<String, String> rawMap = new TreeMap<>(getQueryString(url));
 
                     if (rawMap.get("x_result").equals("Completed")) {
 

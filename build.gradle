@@ -1,9 +1,9 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
 
 ext {
-    bintrayRepo = 'paybright'
+    bintrayRepo = 'maven'
     bintrayName = 'paybright-sdk'
     publishedGroupId = 'com.paybright.sdk'
     libraryName = 'paybright'
@@ -11,7 +11,7 @@ ext {
     libraryDescription = 'PayBright’s mission is to make life more affordable for Canadians. With our convenient payment plans, you can buy now and pay over time in affordable installments. We can help you cover a wide variety of purchases - and we use leading technology to make the process fast and easy.'
     siteUrl = 'https://github.com/Paybright/paybright-android-sdk'
     gitUrl = 'https://github.com/Paybright/paybright-android-sdk.git'
-    libraryVersion = '0.1.1'
+    libraryVersion = '0.1.3'
     developerId = 'PayBright'
     developerName = 'PayBright'
     developerEmail = 'gurpreet@paybright.com'
@@ -21,16 +21,14 @@ ext {
 }
 
 android {
-    compileSdkVersion 27
-
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -42,18 +40,23 @@ android {
         debug {
             debuggable false
             minifyEnabled true
-            useProguard true
             proguardFiles 'proguard-rules.pro'
         }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
 
 apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'

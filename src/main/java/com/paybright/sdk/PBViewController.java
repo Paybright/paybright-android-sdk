@@ -9,8 +9,9 @@ package com.paybright.sdk;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -38,8 +39,9 @@ public class PBViewController extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
-        setContentView(R.layout.activity_view_controller);
+        // setContentView(R.layout.activity_view_controller);
     }
 
     private void setup() {
@@ -84,7 +86,6 @@ public class PBViewController extends AppCompatActivity {
                 PBConfig.getInstance().apiToken));
 
         return queryParameters(rawMap);
-
     }
 
     private String queryParameters(Map<String, Object> rawMap) {

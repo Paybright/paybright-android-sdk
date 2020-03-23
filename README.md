@@ -9,7 +9,7 @@ Installation
 <strong> Download via Gradle </strong>
 
 ```groovy
-compile 'com.paybright.sdk:PayBright:0.1.0'"
+implementation 'com.paybright.sdk:PayBright:0.1.3'
 ```
 
 <strong> Download via Maven </strong>
@@ -17,7 +17,7 @@ compile 'com.paybright.sdk:PayBright:0.1.0'"
 <dependency>
   <groupId>com.paybright.sdk</groupId>
   <artifactId>PayBright</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.3</version>
   <type>pom</type>
 </dependency>
 ```
@@ -117,6 +117,7 @@ Add PBWebView into your AndroidManifest.xml
 ```xml
 <activity
       android:name="com.paybright.sdk.PBWebView"
+      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
       android:screenOrientation="portrait" />
 ```
 
@@ -138,4 +139,4 @@ A demo app that integrates PayBright is included in the repo.
 Requirements
 =======
 
-minSdkVersion 16 is required to use PayBright
+minSdkVersion 16 and AndroidX is required to use PayBright

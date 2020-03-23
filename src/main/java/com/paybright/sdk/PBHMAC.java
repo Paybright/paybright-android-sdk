@@ -6,11 +6,11 @@ package com.paybright.sdk;
  */
 
 
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
+
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 
 
 class PBHMAC {
@@ -19,16 +19,10 @@ class PBHMAC {
 
         try {
 
-            final String hashingAlgorithm = "HmacSHA256"; //or "HmacSHA1", "HmacSHA512"
+            byte[] bytes = hmac(key.getBytes(), message.getBytes());
 
 
-            byte[] bytes = hmac(hashingAlgorithm, key.getBytes(), message.getBytes());
-
-
-            final String messageDigest = bytesToHex(bytes);
-
-
-            return messageDigest;
+            return bytesToHex(bytes);
         }
 
         catch (Exception e) {
@@ -41,13 +35,13 @@ class PBHMAC {
     }
 
 
-    private byte[] hmac(String algorithm, byte[] key, byte[] message)
+    private byte[] hmac(byte[] key, byte[] message)
             throws NoSuchAlgorithmException, InvalidKeyException {
 
 
-        Mac mac = Mac.getInstance(algorithm);
+        Mac mac = Mac.getInstance("HmacSHA256");
 
-        mac.init(new SecretKeySpec(key, algorithm));
+        mac.init(new SecretKeySpec(key, "HmacSHA256"));
 
 
         return mac.doFinal(message);
