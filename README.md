@@ -15,10 +15,10 @@ implementation 'com.paybright.sdk:PayBright:0.1.3'
 <strong> Download via Maven </strong>
 ```xml
 <dependency>
-  <groupId>com.paybright.sdk</groupId>
-  <artifactId>PayBright</artifactId>
-  <version>0.1.3</version>
-  <type>pom</type>
+<groupId>com.paybright.sdk</groupId>
+<artifactId>PayBright</artifactId>
+<version>0.1.3</version>
+<type>pom</type>
 </dependency>
 ```
 
@@ -34,8 +34,8 @@ Set the API Key and token obtained from PayBright in PBConfig once (preferably i
 
 ```
 PBConfig.getInstance().initialize(PBConfig.PBEnvironment.Sandbox,
-                                  "API_KEY",
-                                  "API_TOKEN");
+"API_KEY",
+"API_TOKEN");
 ```
 
 ## Checkout
@@ -52,37 +52,37 @@ Checkout creation is the process in which a customer uses PayBright to pay for a
 
 ```
 PBCustomer customerObj = new PBCustomer("cs@paybright.com",
-                                        "James",
-                                        "Testhetfield",
-                                        null);
+"James",
+"Testhetfield",
+null);
 ```
 
 ### Customer Billing
 
 ```
 PBCustomerBilling customerBillingObj = new PBCustomerBilling("270 Rue Olier",
-                                                             null,
-                                                             "Chicoutimi",
-                                                             null,
-                                                             "CA", 
-                                                             "+1-613-987-6543",
-                                                             "QC",
-                                                             "G7G 4J3");
+null,
+"Chicoutimi",
+null,
+"CA", 
+"+1-613-987-6543",
+"QC",
+"G7G 4J3");
 ```
 
 ### Customer Shipping
 
 ```
 PBCustomerShipping customerShippingObj = new PBCustomerShipping("270 Rue Olier",
-                                                                null,
-                                                                "Chicoutimi",
-                                                                "Shopify",
-                                                                "CA",
-                                                                "James", 
-                                                                "Testhetfield",
-                                                                "+1-613-987-6543",
-                                                                "QC",
-                                                                "G7G 4J3");
+null,
+"Chicoutimi",
+"Shopify",
+"CA",
+"James", 
+"Testhetfield",
+"+1-613-987-6543",
+"QC",
+"G7G 4J3");
 
 ```
 
@@ -90,35 +90,35 @@ PBCustomerShipping customerShippingObj = new PBCustomerShipping("270 Rue Olier",
 
 ```
 PBProduct productObj = new PBProduct(2625.0,
-                                    "CAD",
-                                    "PaymentGatewayTesting - #4682855809085",
-                                    "#4682855809085",
-                                    null,
-                                    "sdk",
-                                    "4682855809085",
-                                    "CA",
-                                    "PaymentGatewayTesting",
-                                    "https://checkout.shopify.com/services/ping/notify_integration/paybright/19629019",
-                                    "https://paymentgatewaytesting.myshopify.com/19629019/checkouts/84044f7a52ff18a84dd1f2b5cd46b387?key=0c4978718a87a00e5ac1456b577b5695",
-                                    "https://paymentgatewaytesting.myshopify.com/19629019/checkouts/84044f7a52ff18a84dd1f2b5cd46b387/offsite_gateway_callback");
+"CAD",
+"PaymentGatewayTesting - #4682855809085",
+"#4682855809085",
+null,
+"sdk",
+"4682855809085",
+"CA",
+"PaymentGatewayTesting",
+"https://checkout.shopify.com/services/ping/notify_integration/paybright/19629019",
+"https://paymentgatewaytesting.myshopify.com/19629019/checkouts/84044f7a52ff18a84dd1f2b5cd46b387?key=0c4978718a87a00e5ac1456b577b5695",
+"https://paymentgatewaytesting.myshopify.com/19629019/checkouts/84044f7a52ff18a84dd1f2b5cd46b387/offsite_gateway_callback");
 ```
 
 ### Instance
 
 ```
 PBConfig.getInstance().instanceObj = new PBInstance(customerObj,
-                                                    customerBillingObj,
-                                                    customerShippingObj,
-                                                    productObj);
+customerBillingObj,
+customerShippingObj,
+productObj);
 ```
 ### Using Activity
 
 Add PBWebView into your AndroidManifest.xml
 ```xml
 <activity
-      android:name="com.paybright.sdk.PBWebView"
-      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-      android:screenOrientation="portrait" />
+android:name="com.paybright.sdk.PBWebView"
+android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+android:screenOrientation="portrait" />
 ```
 
 Once the `PBInstance` has been constructed, set it in `PBConfig` shared object and you may use `PBViewController`. This initiates the flow which guides the user through the PayBright checkout process. An example of how this is implemented is provided as follows
